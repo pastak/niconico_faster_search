@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>ニコニコ高速検索</title>
+		<script type="text/javascript" src="nicosearch.js"></script>
+		<script type="text/javascript" src="jquery-1.4.2.js"></script>
+		<style type="text/css">
+			.thumbnail{
+				border:0px;
+			}
+			.movieinfo{
+				text-align:center;
+				margin:5px 0px 0px 10px;
+				border:dotted 2px skyblue;
+				padding:4px 4px 4px 4px;
+				width:150px;
+				height:200px;
+				float:left;
+			}
+			.movielink{
+				color:blue;
+				text-decoration:none;
+			}
+			.movietitle{
+				margin-left:5px;
+			}
+		</style>
+    </head>
+    <body>
+    	<span style="float:right;font-weight:bold;">「高速」のつもり・・・</span>
+		<hr style="clear:both;"/>
+        <h1>ニコニコ高速検索</h1>
+		検索ワード<input type="text" id="q" onkeyup="result()"/>
+		<h2 id="resultword"></h2>
+		<div id="result"></div>
+		<address style="clear:both;">
+			Made by <br />
+			Pasta-K &#60;pasta0915[at]gmail.com&#62;<br />
+			Twitter:<a style="text-decoration:none;" href="http://twitter.com/pastak">@pastak</a>
+		</address>
+    </body>
+</html>
